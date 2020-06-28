@@ -6,13 +6,13 @@ import { Switch, Route } from 'react-router-dom';
 import ENV from '../environment/index';
 
 // lazy load components
-const Todo = React.lazy(() => import('./screens/todo/Todo'));
+const Home = React.lazy(() => import('./screens/home/Home'));
 const Error404 = React.lazy(() => import('./screens/404/Error404'));
 
 const AppRouter = () => {
 	return (
 		<Switch>
-			<Route exact path={ENV().ROUTING.TODO} component={Todo} />
+			<Route exact path={ENV().ROUTING.HOME} component={Home} />
 			<Route exact from="*" component={Error404} />
 		</Switch>
 	);
