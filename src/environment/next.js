@@ -1,6 +1,6 @@
 const next = {
 	ROUTING: {
-		TODO: '/'
+		HOME: '/'
 	}
 };
 export default next;

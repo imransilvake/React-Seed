@@ -1,6 +1,6 @@
 const production = {
 	ROUTING: {
-		TODO: '/'
+		HOME: '/'
 	}
 };
 export default production;

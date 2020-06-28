@@ -1,6 +1,6 @@
 const development = {
 	ROUTING: {
-		TODO: '/'
+		HOME: '/'
 	}
 };
 export default development;
