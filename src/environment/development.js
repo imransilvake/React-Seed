@@ -1,6 +1,7 @@
+// app
+import appRoutes from './app-routes';
+
 const development = {
-	ROUTING: {
-		HOME: '/'
-	}
+	ROUTING: appRoutes
 };
 export default development;
