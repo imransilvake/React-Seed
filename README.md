@@ -14,6 +14,7 @@ React seed is using create-react-app, and it incorporates many best practices ty
 #### External 
 - [X] [Create React App](https://github.com/facebook/create-react-app)
 - [X] [Translation](https://github.com/i18next/react-i18next)
+- [X] [Cypress](https://www.cypress.io)
 
 
 ## Environments
