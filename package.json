@@ -11,7 +11,8 @@
         "serve": "serve -s build",
         "lint:scss": "stylelint '**/*.scss'; exit 0",
         "lint:es": "eslint --ext .jsx --ext .js src/",
-        "test": "react-scripts test",
+        "test:run": "cypress run",
+        "test:open": "cypress open",
         "eject": "react-scripts eject"
     },
     "dependencies": {
@@ -28,7 +29,8 @@
         "eslint-plugin-react": "^7.20.0",
         "node-sass": "^4.14.1",
         "stylelint": "^13.6.1",
-        "stylelint-order": "^4.1.0"
+        "stylelint-order": "^4.1.0",
+		"cypress": "^4.10.0"
     },
     "browserslist": {
         "production": [
