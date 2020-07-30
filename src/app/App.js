@@ -1,5 +1,5 @@
 // react
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 // app
@@ -7,7 +7,7 @@ import AppRouter from './AppRouter';
 
 const App = () => {
 	return (
-		<React.Suspense fallback={<div>...Loading</div>}>
+		<Suspense fallback={<div>...Loading</div>}>
 			<BrowserRouter>
 				{/* Header */}
 
@@ -15,7 +15,7 @@ const App = () => {
 
 				{/* Footer */}
 			</BrowserRouter>
-		</React.Suspense>
+		</Suspense>
 	);
 };
 export default App;
